@@ -41,7 +41,7 @@ class KeyDB
         return $types;
     }
 
-    public static function computeKeyIds($keyMeta)
+    private static function computeKeyIds($keyMeta)
     {
         $keyCanonicalStruct = [
             'keytype' => $keyMeta['keytype'],
